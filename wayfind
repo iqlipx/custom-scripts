@@ -1,3 +1,9 @@
-```
+lets you instantly search for archived versions of any domain using the Wayback Machine's raw index.
+
 javascript:(()=>{let d=prompt("Enter domain (without http/https):");if(d)location.href="http://web.archive.org/cdx/search/cdx?url=*."+d+"&output=text&fl=original&collapse=urlkey";})();
-```
+
+
+
+Add a new bookmark in Firefox.
+Name: wayfind
+URL: javascript:(()=>{let d=prompt("Enter domain (without http/https):");if(d)location.href="http://web.archive.org/cdx/search/cdx?url=*."+d+"&output=text&fl=original&collapse=urlkey";})();
