@@ -1,4 +1,4 @@
-lets you instantly search for archived versions of any domain using the Wayback Machine's raw index.
+Wayfind quickly fetches a raw list of all URLs archived by the Wayback Machine for a given domain, revealing hidden endpoints for recon and pentesting.
 
 javascript:(()=>{let d=prompt("Enter domain (without http/https):");if(d)location.href="http://web.archive.org/cdx/search/cdx?url=*."+d+"&output=text&fl=original&collapse=urlkey";})();
 
